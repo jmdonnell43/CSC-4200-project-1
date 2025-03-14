@@ -24,7 +24,6 @@ This project implements a basic client-server model using TCP sockets with both 
 ├── server.py          # Server implementation
 ├── client.py          # Client implementation
 ├── Makefile           # Build and run commands
-├── requirements.txt   # Dependencies list
 ├── README.md          # This file
 └── design_explanation.md  # Design documentation
 ```
