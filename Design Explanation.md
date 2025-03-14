@@ -30,7 +30,7 @@ Our implementation uses a standard TCP socket-based client-server model with the
 
 ## 2. Threading Model
 
-We implemented a multi-threaded approach to handle multiple clients simultaneously:
+Implemented a multi-threaded approach to handle multiple clients simultaneously:
 
 ### Server Threading
 
@@ -54,7 +54,7 @@ We implemented a multi-threaded approach to handle multiple clients simultaneous
 
 ## 3. Encryption Implementation
 
-We implemented a dual-layer encryption approach for maximum security:
+Implemented a dual-layer encryption approach for maximum security:
 
 ### Layer 1: SSL/TLS Encryption (Transport Layer)
 
@@ -124,7 +124,7 @@ Our implementation includes comprehensive error handling for both connection and
 
 ## 5. Logging System
 
-We implemented a detailed logging system with security considerations:
+Implemented a detailed logging system with security considerations:
 
 - Logs are stored in both files (`server_logs.log`, `client_logs.log`) and displayed on the console
 - Each log entry includes a timestamp, log level, and descriptive message
